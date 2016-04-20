@@ -1,0 +1,33 @@
+{
+  "name": "huggy",
+  "version": "0.0.0",
+  "description": " he is a good informant !",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -cL -t 100 -a code"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdeturckheim/huggy.git"
+  },
+  "author": "vdeturckheim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vdeturckheim/huggy/issues"
+  },
+  "homepage": "https://github.com/vdeturckheim/huggy#readme",
+  "dependencies": {
+    "boom": "^3.1.2",
+    "mongoose": "^4.4.12",
+    "octonode": "^0.7.5"
+  },
+  "devDependencies": {
+    "code": "^2.2.0",
+    "glue": "^3.2.0",
+    "lab": "^10.3.1",
+    "maitredhotel": "^0.3.0",
+    "npm-check-updates": "^2.6.1",
+    "nsp": "^2.3.0",
+    "proxyquire": "^1.7.4"
+  }
+}
